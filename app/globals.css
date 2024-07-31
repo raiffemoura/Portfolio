@@ -61,10 +61,12 @@
 
   @keyframes fadeIn {
     0% {
-      opacity: 0.3;
+      opacity: 0;
+      translate: 0 30px;
     }
     100% {
       opacity: 1;
+      translate: 0 0;
     }
   }
 
@@ -265,6 +267,179 @@
 
   .slide-out5 {
     animation: slideOut5 0.2s ease-out forwards;
+  }
+  /*  Ocultar a barra de rolagem para navegadores */
+  /* Webkit (Chrome, Safari) */
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  /*  Firefox */
+  .scrollbar-hidden {
+    scrollbar-width: none;
+  }
+
+  /* Microsoft Edge e Internet Explorer */
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+  }
+
+  /* =====  ANIMATION SKILL 1 ===== */
+  @keyframes skill1 {
+    0% {
+      translate: 0px 0px;
+    }
+    10% {
+      translate: 60px 30px;
+    }
+    50% {
+      translate: 60px 30px;
+    }
+    60% {
+      translate: 0px 0px;
+    }
+    100% {
+      translate: 0px 0px;
+    }
+  }
+
+  .skills-1 {
+    animation: skill1 13s ease-in-out infinite;
+  }
+
+  /* =====  ANIMATION SKILL 2 ===== */
+
+  @keyframes skill2 {
+    0% {
+      translate: -70px -10px;
+    }
+    10% {
+      translate: -110px 20px;
+    }
+    50% {
+      translate: -110px 20px;
+    }
+    60% {
+      translate: -70px -10px;
+    }
+    100% {
+      translate: -70px -10px;
+    }
+  }
+
+  .skills-2 {
+    animation: skill2 12s ease-in-out infinite;
+  }
+
+  /* =====  ANIMATION SKILL 3 ===== */
+  @keyframes skill3 {
+    0% {
+      translate: 70px 30px;
+    }
+    10% {
+      translate: 0px 0px;
+    }
+    50% {
+      translate: 0px 0px;
+    }
+    60% {
+      translate: 70px 30px;
+    }
+    100% {
+      translate: 70px 30px;
+    }
+  }
+
+  .skills-3 {
+    animation: skill3 11s ease-in-out infinite;
+  }
+
+  /* =====  ANIMATION SKILL 4 ===== */
+  @keyframes skill4 {
+    0% {
+      translate: 0px 0px;
+    }
+    5% {
+      translate: -10px -60px;
+    }
+
+    30% {
+      translate: -10px -60px;
+    }
+    35% {
+      translate: 0px 0px;
+    }
+    60% {
+      translate: 0px 0px;
+    }
+    65% {
+      translate: -60px -10px;
+    }
+
+    95% {
+      translate: -60px -10px;
+    }
+    100% {
+      translate: 0px 0px;
+    }
+  }
+
+  .skills-4 {
+    animation: skill4 18s ease-in-out infinite;
+  }
+
+  /* =====  ANIMATION SKILL 5 ===== */
+  @keyframes skill5 {
+    0% {
+      translate: 10px 0px;
+    }
+    10% {
+      translate: 90px 15px;
+    }
+    50% {
+      translate: 90px 15px;
+    }
+    60% {
+      translate: 10px 0px;
+    }
+    100% {
+      translate: 10px 0px;
+    }
+  }
+
+  .skills-5 {
+    animation: skill5 14s ease-in-out infinite;
+  }
+
+  /* =====  ANIMATION SKILL 6 ===== */
+  @keyframes skill6 {
+    0% {
+      translate: 0px 0px;
+    }
+    10% {
+      translate: -80px -30px;
+    }
+
+    30% {
+      translate: -80px -30px;
+    }
+
+    35% {
+      translate: -80px 10px;
+    }
+    60% {
+      translate: -80px 10px;
+    }
+    75% {
+      translate: 0px 0px;
+    }
+    -------------- 100% {
+      translate: 0px 0px;
+    }
+  }
+
+  .skills-6 {
+    animation: skill6 13s ease-in-out infinite;
   }
 }
 
