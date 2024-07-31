@@ -13,12 +13,12 @@ const ContactCard = () => {
 
   return (
     <>
-      <div className="flex h-full w-full items-center justify-center">
+      <div className="fadeIn flex h-full w-full items-center justify-center">
         <form
           action="https://formsubmit.co/1993.raiffe@gmail.com"
           method="POST"
           target="blank"
-          className="flex h-fit w-[30rem] flex-col items-center justify-between rounded-3xl border-none bg-[#000000] bg-opacity-70 px-8 py-6 text-white"
+          className="flex h-fit w-[30rem] flex-col items-center justify-between rounded-3xl border-none bg-[#000000] bg-opacity-40 px-8 py-6 text-white"
         >
           <h1 className="text-3xl">
             Lets
