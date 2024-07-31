@@ -1,30 +1,31 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
-import whatsapp from "../_assets/sky-mountain.jpg";
+import whatsapp from "../_assets/gradiente-escuro.jpg";
 import portfolios from "../_assets/portfol-ios.png";
 import ifoodfy from "../_assets/ifoodfy.jpg";
 import Image from "next/image";
 
 const HomeCard = () => {
   const [isHovered, setIsHovered] = useState(false);
+  const [hasInteracted, setHasInteracted] = useState(false);
+
+  useEffect(() => {
+    if (isHovered) {
+      setHasInteracted(true);
+    }
+  }, [isHovered]);
 
   return (
-    <div className="flex h-full w-full items-center justify-center">
+    <div className="fadeIn flex h-full w-full items-center justify-center">
       <div>
-        <div
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseMove={() => setIsHovered(true)}
-          onMouseOut={() => setIsHovered(false)}
-          onMouseLeave={() => setIsHovered(false)}
-          className="z-10"
-        >
+        <div className={`z-10 ${!hasInteracted ? "hidden" : ""}`}>
           {/* esquerda em baixo */}
           <Image
             src={ifoodfy}
             alt="whatsapp"
-            className={`absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in" : "slide-out"} `}
+            className={`initial-state absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in" : "slide-out"} `}
           />
           {/* meio em baixo */}{" "}
           <Image
@@ -55,7 +56,7 @@ const HomeCard = () => {
           onMouseEnter={() => setIsHovered(true)}
           onMouseMove={() => setIsHovered(true)}
           onMouseOut={() => setIsHovered(false)}
-          // onMouseLeave={() => setIsHovered(false)}
+          onMouseLeave={() => setIsHovered(false)}
           className="relative z-20 flex h-52 w-[30rem] flex-col items-center justify-between rounded-3xl border-none bg-[#000000] bg-opacity-30 py-4 text-white backdrop-blur-lg"
         >
           <div className="flex w-full flex-row items-center justify-center text-3xl">

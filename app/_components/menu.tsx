@@ -31,12 +31,12 @@ interface MenuProps {
 const Menu = ({ selected }: MenuProps) => {
   return (
     <>
-      <div className="flex max-w-fit items-center justify-between gap-3 rounded-3xl bg-[#000000] bg-opacity-30 p-3 backdrop-blur-lg">
+      <div className="fixed bottom-3 flex max-w-fit items-center justify-between gap-2 rounded-3xl bg-[#000000] bg-opacity-30 p-3 backdrop-blur-lg">
         <HoverCard>
           <HoverCardTrigger asChild>
             <Link href={"/"}>
               <Button
-                className={`h-12 w-12 rounded-lg border border-[#333333] ${selected === "home" ? "bg-[#fac99c] bg-opacity-100" : "bg-black bg-opacity-10"} p-0 text-white hover:scale-110 hover:bg-[#fac99c] hover:transition-all hover:ease-in-out`}
+                className={`h-12 w-12 rounded-lg border border-none ${selected === "home" ? "bg-[#fac99c] bg-opacity-100" : "bg-black bg-opacity-10"} p-0 text-white hover:scale-110 hover:bg-[#fac99c] hover:transition-all hover:ease-in-out`}
               >
                 <HouseIcon />
                 <HoverCardContent>Home</HoverCardContent>
@@ -49,7 +49,7 @@ const Menu = ({ selected }: MenuProps) => {
           <HoverCardTrigger asChild>
             <Link href={"/about"}>
               <Button
-                className={`h-12 w-12 rounded-lg border border-[#333333] hover:scale-110 hover:transition-all hover:ease-in-out ${selected === "about" ? "bg-[#9fd8ff] bg-opacity-100" : "bg-black bg-opacity-10"} p-0 text-white hover:bg-[#9fd8ff]`}
+                className={`h-12 w-12 rounded-lg border border-none hover:scale-110 hover:transition-all hover:ease-in-out ${selected === "about" ? "bg-[#9fd8ff] bg-opacity-100" : "bg-black bg-opacity-10"} p-0 text-white hover:bg-[#9fd8ff]`}
               >
                 <CircleUserIcon />
               </Button>
@@ -62,7 +62,7 @@ const Menu = ({ selected }: MenuProps) => {
           <HoverCardTrigger asChild>
             <Link href={"/skills"}>
               <Button
-                className={`h-12 w-12 rounded-lg border border-[#333333] hover:scale-110 hover:transition-all hover:ease-in-out ${selected === "skills" ? "bg-[#f8a9a8] bg-opacity-100" : "bg-black bg-opacity-10"} p-0 text-white hover:bg-[#f8a9a8]`}
+                className={`h-12 w-12 rounded-lg border border-none hover:scale-110 hover:transition-all hover:ease-in-out ${selected === "skills" ? "bg-[#f8a9a8] bg-opacity-100" : "bg-black bg-opacity-10"} p-0 text-white hover:bg-[#f8a9a8]`}
               >
                 <StarIcon />
               </Button>
@@ -75,7 +75,7 @@ const Menu = ({ selected }: MenuProps) => {
           <HoverCardTrigger asChild>
             <Link href={"/projects"}>
               <Button
-                className={`h-12 w-12 rounded-lg border border-[#333333] hover:scale-110 hover:transition-all hover:ease-in-out ${selected === "projects" ? "bg-[#b0e3b6] bg-opacity-100" : "bg-black bg-opacity-10"} p-0 text-white hover:bg-[#b0e3b6]`}
+                className={`h-12 w-12 rounded-lg border border-none hover:scale-110 hover:transition-all hover:ease-in-out ${selected === "projects" ? "bg-[#b0e3b6] bg-opacity-100" : "bg-black bg-opacity-10"} p-0 text-white hover:bg-[#b0e3b6]`}
               >
                 <FolderCheck />
               </Button>
@@ -90,7 +90,7 @@ const Menu = ({ selected }: MenuProps) => {
           <HoverCardTrigger asChild>
             <Link href="/contact">
               <Button
-                className={`h-12 w-12 rounded-lg border border-[#333333] ${selected === "contact" ? "bg-[#9fd8ff] bg-opacity-100" : "bg-black bg-opacity-10"} p-0 text-white hover:bg-[#9fd8ff]`}
+                className={`h-12 w-12 rounded-lg border border-none ${selected === "contact" ? "bg-[#9fd8ff] bg-opacity-100" : "bg-black bg-opacity-10"} p-0 text-white hover:bg-[#9fd8ff]`}
               >
                 <MailIcon />
               </Button>
@@ -110,7 +110,7 @@ const Menu = ({ selected }: MenuProps) => {
               href="https://www.linkedin.com/in/raiffemoura/"
               target="_blank"
             >
-              <Button className="h-12 w-12 rounded-lg border border-[#333333] bg-black bg-opacity-10 p-0 text-white hover:bg-[#0077b5]">
+              <Button className="h-12 w-12 rounded-lg border border-none bg-black bg-opacity-10 p-0 text-white hover:bg-[#0077b5]">
                 <Linkedin />
               </Button>
             </Link>
@@ -125,7 +125,7 @@ const Menu = ({ selected }: MenuProps) => {
         <HoverCard>
           <HoverCardTrigger asChild>
             <Link href="https://www.instagram.com/raiffemoura" target="_blank">
-              <Button className="h-12 w-12 rounded-lg border border-[#333333] bg-black bg-opacity-10 p-0 text-white hover:bg-[#c45794]">
+              <Button className="h-12 w-12 rounded-lg border border-none bg-black bg-opacity-10 p-0 text-white hover:bg-[#c45794]">
                 <Instagram />
               </Button>
             </Link>
@@ -143,7 +143,7 @@ const Menu = ({ selected }: MenuProps) => {
               href="https://wa.me/5583991669951?text=Olá! Eu visitei seu portfólio e gostaria de saber mais sobre os seus serviços. Podemos conversar?"
               target="_blank"
             >
-              <Button className="h-12 w-12 rounded-lg border border-[#333333] bg-black bg-opacity-10 p-0 text-white hover:bg-[#25D366]">
+              <Button className="h-12 w-12 rounded-lg border border-none bg-black bg-opacity-10 p-0 text-white hover:bg-[#25D366]">
                 <Image src={whatsapp} width={20} height={20} alt={"whatsapp"} />
               </Button>
             </Link>
