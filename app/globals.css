@@ -441,6 +441,15 @@
   .skills-6 {
     animation: skill6 13s ease-in-out infinite;
   }
+
+  input,
+  input:focus,
+  input:active,
+  textarea,
+  textarea:focus,
+  textarea:active {
+    box-shadow: none !important;
+  }
 }
 
 @layer base {
