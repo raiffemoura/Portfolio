@@ -17,7 +17,7 @@ import whatsapp from "../_assets/whatsappIcon.png";
 const AboutCard = () => {
   return (
     <div className="fadeIn md:scrollbar-hidden mt-[3rem] flex h-full w-full items-start justify-center gap-3 overflow-auto max-md:flex-col max-md:items-center max-md:overflow-y-auto">
-      <Card className="item flex h-fit w-[25rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white md:mb-20">
+      <Card className="item flex h-fit w-[25rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-40 max-md:w-[20rem] md:mb-20">
         <Image
           src={profile}
           alt="profile"
@@ -43,7 +43,7 @@ const AboutCard = () => {
         </div>
       </Card>
       <div className="scrollbar-hidden flex max-h-[90%] flex-col gap-4 overflow-y-auto">
-        <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white">
+        <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-40 max-md:w-[20rem]">
           <h1 className="text-xl font-bold">Um Pouco Sobre Mim</h1>
           <p className="text-sm text-gray-300">
             Sou Raiffe Moura, um desenvolvedor full-stack com um forte desejo de
@@ -63,7 +63,7 @@ const AboutCard = () => {
           </p>
         </Card>
 
-        <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white">
+        <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-40 max-md:w-[20rem]">
           <h1 className="text-xl font-bold">Experiência</h1>
           <div>
             <Link target="_blank" href={"https://ifoodify.vercel.app/"}>
@@ -103,35 +103,35 @@ const AboutCard = () => {
           </div>
         </Card>
 
-        <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white">
+        <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-40 max-md:w-[20rem]">
           <h1 className="text-xl font-bold">Skills</h1>
           <div className="flex w-full justify-between p-3">
-            <span className="skills-1">
+            <span className="md:skills-1 max-md:-translate-x-6 max-md:-translate-y-0">
               <SkillsBox color="#fac99c" text="Prisma ORM"></SkillsBox>
             </span>
-            <span className="skills-2">
+            <span className="md:skills-2 max-md:-translate-x-16 max-md:-translate-y-5">
               <SkillsBox color="#b0e3b6" text="Node.js"></SkillsBox>
             </span>
           </div>
           <div className="flex w-full justify-between p-3">
-            <span className="skills-3">
+            <span className="md:skills-3 max-md:-translate-x-[-20px]">
               <SkillsBox color="#f8a9a8" text="Tailwind "></SkillsBox>
             </span>
-            <span className="skills-4">
+            <span className="md:skills-4 max-md:-translate-x-[-15px] max-md:-translate-y-10">
               <SkillsBox color="#9fd8ff" text="React"></SkillsBox>
             </span>
           </div>
           <div className="flex w-full justify-between p-3">
-            <span className="skills-5">
+            <span className="md:skills-5 max-md:-translate-x-[-75px]">
               <SkillsBox color="#c8adfa" text="NextJS"></SkillsBox>
             </span>
-            <span className="skills-6">
+            <span className="md:skills-6 max-md:-translate-x-[45px] max-md:-translate-y-12">
               <SkillsBox color="#ffb3e9" text="RESTful APIs"></SkillsBox>
             </span>
           </div>
         </Card>
 
-        <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white">
+        <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-40 max-md:w-[20rem]">
           <h1 className="text-xl font-bold">Vamos nos conectar?</h1>
           <Link
             target="_blank"
