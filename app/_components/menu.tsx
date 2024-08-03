@@ -4,21 +4,12 @@ import {
   FolderCheck,
   HouseIcon,
   MailIcon,
-  StarIcon,
   CircleUserIcon,
   Instagram,
   Linkedin,
   MoveUpRightIcon,
 } from "lucide-react";
 
-// import {
-//   DropdownMenu,
-//   DropdownMenuContent,
-//   DropdownMenuItem,
-//   DropdownMenuLabel,
-//   DropdownMenuSeparator,
-//   DropdownMenuTrigger,
-// } from "./ui/dropdown-menu";
 import { Button } from "./ui/button";
 import Link from "next/link";
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "./ui/hover-card";
@@ -31,7 +22,7 @@ interface MenuProps {
 const Menu = ({ selected }: MenuProps) => {
   return (
     <>
-      <div className="fixed bottom-3 flex max-w-fit items-center justify-between gap-2 rounded-3xl bg-[#000000] bg-opacity-30 p-3 backdrop-blur-lg">
+      <div className="scrollbar-hidden fixed bottom-3 flex w-fit items-center justify-between gap-2 overflow-x-auto rounded-3xl bg-[#000000] bg-opacity-30 p-3 backdrop-blur-lg max-md:w-[20.5rem]">
         <HoverCard>
           <HoverCardTrigger asChild>
             <Link href={"/"}>
@@ -56,19 +47,6 @@ const Menu = ({ selected }: MenuProps) => {
             </Link>
           </HoverCardTrigger>
           <HoverCardContent>About me</HoverCardContent>
-        </HoverCard>
-
-        <HoverCard>
-          <HoverCardTrigger asChild>
-            <Link href={"/skills"}>
-              <Button
-                className={`h-12 w-12 rounded-lg border border-none hover:scale-110 hover:transition-all hover:ease-in-out ${selected === "skills" ? "bg-[#f8a9a8] bg-opacity-100" : "bg-black bg-opacity-10"} p-0 text-white hover:bg-[#f8a9a8]`}
-              >
-                <StarIcon />
-              </Button>
-            </Link>
-          </HoverCardTrigger>
-          <HoverCardContent>Skills</HoverCardContent>
         </HoverCard>
 
         <HoverCard>
@@ -161,54 +139,6 @@ const Menu = ({ selected }: MenuProps) => {
             </span>
           </HoverCardContent>
         </HoverCard>
-
-        {/* <Button className="h-12 w-12 rounded-lg border border-[#e2e2e2] bg-white p-0 text-black hover:bg-[#c8adfa]">
-          <DropdownMenu>
-            <DropdownMenuTrigger>
-              <MailIcon />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuLabel>Contacts</DropdownMenuLabel>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                <Instagram /> <span className="pl-2">Instagram</span>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                {" "}
-                <Linkedin /> <span className="pl-2">Linkedin</span>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                {" "}
-                <MailIcon /> <span className="pl-2">Mail</span>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </Button> */}
-
-        {/* <ButtonMenu color="#fac99c">
-          <HouseIcon />
-        </ButtonMenu>
-        <ButtonMenu color="#f8a9a8">
-          <ArrowBigDown />
-        </ButtonMenu>
-        <ButtonMenu color="#f7e5b7">
-          <HouseIcon />
-        </ButtonMenu>
-        <ButtonMenu color="#b0e3b6">
-          <HouseIcon />
-        </ButtonMenu>
-        <ButtonMenu color="#9ccbf5">
-          <HouseIcon />
-        </ButtonMenu>
-        <ButtonMenu color="#9fd8ff">
-          <HouseIcon />
-        </ButtonMenu>
-        <ButtonMenu color="#c8adfa">
-          <HouseIcon />
-        </ButtonMenu>
-        <ButtonMenu color="#ffb3e9">
-          <HouseIcon />
-        </ButtonMenu> */}
       </div>
     </>
   );
