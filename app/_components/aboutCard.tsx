@@ -16,8 +16,8 @@ import whatsapp from "../_assets/whatsappIcon.png";
 
 const AboutCard = () => {
   return (
-    <div className="fadeIn mt-[3rem] flex h-full w-full items-start justify-center gap-3 overflow-hidden">
-      <Card className="item flex h-fit w-[25rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white">
+    <div className="fadeIn md:scrollbar-hidden mt-[3rem] flex h-full w-full items-start justify-center gap-3 overflow-auto max-md:flex-col max-md:items-center max-md:overflow-y-auto">
+      <Card className="item flex h-fit w-[25rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white md:mb-20">
         <Image
           src={profile}
           alt="profile"
