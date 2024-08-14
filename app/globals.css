@@ -571,27 +571,27 @@
   /* =====  ANIMATION SKILL MOBILE 6 ===== */
   @keyframes skill66 {
     0% {
-      translate: 20px 0px;
+      translate: 20px -10px;
     }
     10% {
-      translate: -50px -50px;
+      translate: -40px -50px;
     }
 
     30% {
-      translate: -50px -50px;
+      translate: -40px -50px;
     }
 
     35% {
-      translate: -22px 10px;
+      translate: -5px 10px;
     }
     60% {
-      translate: -22px 10px;
+      translate: -5px 10px;
     }
     75% {
-      translate: 20px 0px;
+      translate: 20px -10px;
     }
     100% {
-      translate: 20px 0px;
+      translate: 20px -10px;
     }
   }
 
