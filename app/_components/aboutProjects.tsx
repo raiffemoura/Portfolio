@@ -8,7 +8,7 @@ import Link from "next/link";
 const AboutProjects = () => {
   return (
     <div className="fadeIn scrollbar-hidden mt-[3rem] flex h-full w-full items-start justify-center gap-3 overflow-auto">
-      <div className="scrollbar-hidden flex max-h-[90%] flex-col gap-4 overflow-y-auto">
+      <div className="scrollbar-hidden flex max-h-[90%] flex-col gap-4 overflow-y-auto md:grid md:grid-cols-2">
         <Link href="https://portfol-ios.vercel.app/">
           <Card className="item flex h-fit w-[25rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-50 max-md:w-[21rem]">
             <Image
