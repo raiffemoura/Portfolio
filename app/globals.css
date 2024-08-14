@@ -283,7 +283,7 @@
   .scrollbar-hidden {
     -ms-overflow-style: none;
   }
-
+  /* =========== ANIMACOES DESKTOP ============ */
   /* =====  ANIMATION SKILL 1 ===== */
   @keyframes skill1 {
     0% {
@@ -440,6 +440,163 @@
 
   .skills-6 {
     animation: skill6 13s ease-in-out infinite;
+  }
+
+  /* =========== ANIMACOES MOBILE ============ */
+
+  /* =====  ANIMATION SKILL MOBILE 1 ===== */
+  @keyframes skill11 {
+    0% {
+      translate: 0px 0px;
+    }
+    10% {
+      translate: 30px 30px;
+    }
+    50% {
+      translate: 30px 30px;
+    }
+    60% {
+      translate: 0px 0px;
+    }
+    100% {
+      translate: 0px 0px;
+    }
+  }
+
+  .skills-11 {
+    animation: skill11 13s ease-in-out infinite;
+  }
+
+  /* =====  ANIMATION SKILL MOBILE 2 ===== */
+
+  @keyframes skill22 {
+    0% {
+      translate: -20px -20px;
+    }
+    10% {
+      translate: -70px 20px;
+    }
+    50% {
+      translate: -70px 20px;
+    }
+    60% {
+      translate: -20px -20px;
+    }
+    100% {
+      translate: -20px -20px;
+    }
+  }
+
+  .skills-22 {
+    animation: skill22 12s ease-in-out infinite;
+  }
+
+  /* =====  ANIMATION SKILL MOBILE 3 ===== */
+  @keyframes skill33 {
+    0% {
+      translate: 50px 30px;
+    }
+    10% {
+      translate: 0px 0px;
+    }
+    50% {
+      translate: 0px 0px;
+    }
+    60% {
+      translate: 50px 30px;
+    }
+    100% {
+      translate: 50px 30px;
+    }
+  }
+
+  .skills-33 {
+    animation: skill33 9s ease-in-out infinite;
+  }
+
+  /* =====  ANIMATION SKILL MOBILE 4 ===== */
+  @keyframes skill44 {
+    0% {
+      translate: 20px 0px;
+    }
+    5% {
+      translate: 25px -45px;
+    }
+
+    30% {
+      translate: 25px -45px;
+    }
+    35% {
+      translate: -15px -30px;
+    }
+    60% {
+      translate: -15px -30px;
+    }
+    65% {
+      translate: 20px 0px;
+    }
+
+    100% {
+      translate: 20px 0px;
+    }
+  }
+
+  .skills-44 {
+    animation: skill44 18s ease-in-out infinite;
+  }
+
+  /* =====  ANIMATION SKILL MOBILE 5 ===== */
+  @keyframes skill55 {
+    0% {
+      translate: 10px 0px;
+    }
+    10% {
+      translate: 90px 15px;
+    }
+    50% {
+      translate: 90px 15px;
+    }
+    60% {
+      translate: 10px 0px;
+    }
+    100% {
+      translate: 10px 0px;
+    }
+  }
+
+  .skills-55 {
+    animation: skill55 14s ease-in-out infinite;
+  }
+
+  /* =====  ANIMATION SKILL MOBILE 6 ===== */
+  @keyframes skill66 {
+    0% {
+      translate: 20px 0px;
+    }
+    10% {
+      translate: -50px -50px;
+    }
+
+    30% {
+      translate: -50px -50px;
+    }
+
+    35% {
+      translate: -22px 10px;
+    }
+    60% {
+      translate: -22px 10px;
+    }
+    75% {
+      translate: 20px 0px;
+    }
+    100% {
+      translate: 20px 0px;
+    }
+  }
+
+  .skills-66 {
+    animation: skill66 13s ease-in-out infinite;
   }
 
   input,

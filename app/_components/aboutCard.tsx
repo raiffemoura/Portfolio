@@ -106,26 +106,26 @@ const AboutCard = () => {
         <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-40 max-md:w-[20rem]">
           <h1 className="text-xl font-bold">Skills</h1>
           <div className="flex w-full justify-between p-3">
-            <span className="md:skills-1 max-md:-translate-x-6 max-md:-translate-y-0">
+            <span className="md:skills-1 max-md:skills-11">
               <SkillsBox color="#fac99c" text="Prisma ORM"></SkillsBox>
             </span>
-            <span className="md:skills-2 max-md:-translate-x-16 max-md:-translate-y-5">
+            <span className="md:skills-2 max-md:skills-22">
               <SkillsBox color="#b0e3b6" text="Node.js"></SkillsBox>
             </span>
           </div>
           <div className="flex w-full justify-between p-3">
-            <span className="md:skills-3 max-md:-translate-x-[-20px]">
+            <span className="md:skills-3 max-md:skills-33">
               <SkillsBox color="#f8a9a8" text="Tailwind "></SkillsBox>
             </span>
-            <span className="md:skills-4 max-md:-translate-x-[-15px] max-md:-translate-y-10">
+            <span className="md:skills-4 max-md:skills-44">
               <SkillsBox color="#9fd8ff" text="React"></SkillsBox>
             </span>
           </div>
           <div className="flex w-full justify-between p-3">
-            <span className="md:skills-5 max-md:-translate-x-[-75px]">
+            <span className="md:skills-5 max-md:skills-55">
               <SkillsBox color="#c8adfa" text="NextJS"></SkillsBox>
             </span>
-            <span className="md:skills-6 max-md:-translate-x-[45px] max-md:-translate-y-12">
+            <span className="md:skills-6 max-md:skills-66">
               <SkillsBox color="#ffb3e9" text="RESTful APIs"></SkillsBox>
             </span>
           </div>
