@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import portfolios from "../_assets/portfol-ios.png";
 import ifoodfy from "../_assets/ifoodfy.jpg";
+import pbbarbers from "../_assets/pbbarbers.jpg";
 import ecommerce from "../_assets/ecommerce.jpg";
 import Image from "next/image";
 
@@ -24,31 +25,31 @@ const HomeCard = () => {
           {/* esquerda em baixo */}
           <Image
             src={ifoodfy}
-            alt="whatsapp"
+            alt="ifoodfy"
             className={`initial-state absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in" : "slide-out"} `}
           />
           {/* meio em baixo */}{" "}
           <Image
             src={ecommerce}
-            alt="whatsapp"
+            alt="ecommerce"
             className={`absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in2" : "slide-out2"} `}
           />
           {/* esquerda em cima */}
           <Image
             src={portfolios}
-            alt="whatsapp"
+            alt="portfolio"
             className={`absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in3" : "slide-out3"} `}
           />
           {/* direta em cima */}
           <Image
-            src={ifoodfy}
-            alt="whatsapp"
+            src={pbbarbers}
+            alt="pb barbers"
             className={`absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in4" : "slide-out4"} `}
           />
           {/* direta em baixo */}
           <Image
-            src={portfolios}
-            alt="whatsapp"
+            src={ifoodfy}
+            alt="pb barbers"
             className={`absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in5" : "slide-out5"} `}
           />
         </div>
