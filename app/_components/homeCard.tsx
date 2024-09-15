@@ -26,31 +26,31 @@ const HomeCard = () => {
           <Image
             src={ifoodfy}
             alt="ifoodfy"
-            className={`initial-state absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in" : "slide-out"} `}
+            className={`absolute h-52 w-52 rounded-lg max-md:h-36 max-md:w-36 ${isHovered ? "slide-in max-md:slide-in-mobile" : "slide-out max-md:slide-out-mobile"} `}
           />
           {/* meio em baixo */}{" "}
           <Image
             src={ecommerce}
             alt="ecommerce"
-            className={`absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in2" : "slide-out2"} `}
+            className={`absolute h-52 w-52 rounded-lg max-md:h-36 max-md:w-36 ${isHovered ? "slide-in2 max-md:slide-in2-mobile" : "slide-out2 max-md:slide-out2-mobile"} `}
           />
           {/* esquerda em cima */}
           <Image
             src={portfolios}
             alt="portfolio"
-            className={`absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in3" : "slide-out3"} `}
+            className={`absolute h-52 w-52 rounded-lg max-md:h-36 max-md:w-36 ${isHovered ? "slide-in3 max-md:slide-in3-mobile" : "max-md:slide-out3-mobile slide-out3"} `}
           />
           {/* direta em cima */}
           <Image
             src={pbbarbers}
             alt="pb barbers"
-            className={`absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in4" : "slide-out4"} `}
+            className={`absolute h-52 w-52 rounded-lg max-md:h-36 max-md:w-36 ${isHovered ? "slide-in4 max-md:slide-in4-mobile" : "max-md:slide-out4-mobile slide-out4"} `}
           />
           {/* direta em baixo */}
           <Image
             src={ifoodfy}
             alt="pb barbers"
-            className={`absolute h-52 w-52 rounded-lg ${isHovered ? "slide-in5" : "slide-out5"} `}
+            className={`absolute h-52 w-52 rounded-lg max-md:h-36 max-md:w-36 ${isHovered ? "slide-in5 max-md:slide-in5-mobile" : "slide-out5 max-md:slide-out5-mobile"} `}
           />
         </div>
 
