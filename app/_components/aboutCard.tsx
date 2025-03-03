@@ -52,10 +52,10 @@ const AboutCard = () => {
             tornar a tecnologia mais acessível e relevante.
           </p>
           <p className="text-sm text-gray-300">
-            Quando não estou programando, você me encontrará no mundo do
-            CrossFit, sempre em busca de novos desafios e competições. Minha fé
-            cristã é uma parte essencial da minha vida, orientando meus valores
-            e impulsionando minha busca pela excelência e pelo apoio aos outros.
+            Além de programador, sou entusiasta do CrossFit, corrida e futebol americano, 
+            gosto de desafios e competições. Guiado pela minha fé cristã, tenho 31 anos, 
+            sou casado e pai de três filhos, o que me motiva ainda mais a criar um futuro 
+            melhor através da tecnologia.
           </p>
           <p className="text-sm text-gray-300">
             Estou sempre em busca de oportunidades para crescer e inovar. Vamos
