@@ -397,7 +397,7 @@
     100% {
       transform: scale(1);
       opacity: 1;
-      translate: 420px 100px;
+      translate: 470px 150px;
       rotate: 5deg;
     }
   }
@@ -410,7 +410,7 @@
     0% {
       transform: scale(1);
       opacity: 1;
-      translate: 420px 100px;
+      translate: 470px 150px;
       rotate: 5deg;
     }
     100% {

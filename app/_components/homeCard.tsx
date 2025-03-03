@@ -5,7 +5,8 @@ import { Card } from "./ui/card";
 import portfolios from "../_assets/portfol-ios.png";
 import ifoodfy from "../_assets/ifoodfy.jpg";
 import pbbarbers from "../_assets/pbbarbers.jpg";
-import ecommerce from "../_assets/ecommerce.jpg";
+import ecommerce from "../_assets/ecommerce3.jpg";
+import institucional from "../_assets/institucional.jpg";
 import Image from "next/image";
 
 const HomeCard = () => {
@@ -48,7 +49,7 @@ const HomeCard = () => {
           />
           {/* direta em baixo */}
           <Image
-            src={ifoodfy}
+            src={institucional}
             alt="pb barbers"
             className={`absolute h-52 w-52 rounded-lg max-md:h-36 max-md:w-36 ${isHovered ? "slide-in5 max-md:slide-in5-mobile" : "slide-out5 max-md:slide-out5-mobile"} `}
           />

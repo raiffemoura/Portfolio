@@ -102,7 +102,10 @@ const Menu = ({ selected }: MenuProps) => {
 
         <HoverCard>
           <HoverCardTrigger asChild>
-            <Link href="https://www.instagram.com/raiffemoura" target="_blank">
+            <Link
+              href="https://www.instagram.com/raiffe.design"
+              target="_blank"
+            >
               <Button className="h-12 w-12 rounded-lg border border-none bg-black bg-opacity-10 p-0 text-white hover:bg-[#c45794] max-md:h-10 max-md:w-10">
                 <Instagram />
               </Button>
