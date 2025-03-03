@@ -52,10 +52,10 @@ const AboutCard = () => {
             tornar a tecnologia mais acessível e relevante.
           </p>
           <p className="text-sm text-gray-300">
-            Além de programador, sou entusiasta do CrossFit, corrida e futebol americano, 
-            gosto de desafios e competições. Guiado pela minha fé cristã, tenho 31 anos, 
-            sou casado e pai de três filhos, o que me motiva ainda mais a criar um futuro 
-            melhor através da tecnologia.
+            Além de programador, sou entusiasta do CrossFit, corrida e futebol
+            americano, gosto de desafios e competições. Guiado pela minha fé
+            cristã, tenho 31 anos, sou casado e pai de três filhos, o que me
+            motiva ainda mais a criar um futuro melhor através da tecnologia.
           </p>
           <p className="text-sm text-gray-300">
             Estou sempre em busca de oportunidades para crescer e inovar. Vamos
@@ -99,6 +99,71 @@ const AboutCard = () => {
             <p className="text-sm text-gray-300">
               Cada &quot;app&quot; reflete minha habilidade em enfrentar
               desafios e encontrar soluções criativas.
+            </p>
+          </div>
+
+          <span className="m-1 flex h-[1px] w-[100%] justify-center bg-[#f5f7f7] bg-opacity-20"></span>
+
+          <div>
+            <Link
+              target="_blank"
+              href={"https://benifalcao.lojavirtualnuvem.com.br/"}
+            >
+              <Card className="mb-2 flex w-fit items-center justify-center gap-1 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-2 py-1 text-gray-300">
+                <p className="text-xs">E-commerce - BENI FALCÃO</p>
+                <ArrowUpRightIcon size={16} />
+              </Card>
+            </Link>
+            <p className="text-sm text-gray-300">
+              Desenvolvi um e-commerce para a Beni Falcão, uma marca de enxovais
+              de bebê minimalistas que valoriza qualidade e estética clean. A
+              plataforma combina design intuitivo com processos de compra
+              otimizados, garantindo uma experiência fluida para os clientes.
+            </p>
+          </div>
+
+          <span className="m-1 flex h-[1px] w-[100%] justify-center bg-[#f5f7f7] bg-opacity-20"></span>
+
+          <div>
+            <Link
+              target="_blank"
+              href={"https://catedralcomunhao.framer.website/"}
+            >
+              <Card className="mb-2 flex w-fit items-center justify-center gap-1 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-2 py-1 text-gray-300">
+                <p className="text-xs">
+                  Site Institucional - CATEDRAL COMUNHÃO
+                </p>
+                <ArrowUpRightIcon size={16} />
+              </Card>
+            </Link>
+            <p className="text-sm text-gray-300">
+              Criei o site institucional da Catedral Comunhão Anglicana,
+              proporcionando um espaço digital acessível para membros e
+              visitantes da igreja. O site inclui animações, páginas
+              informativas, álbuns de fotos de eventos e materiais para
+              download, facilitando o acesso a conteúdos da comunidade.
+            </p>
+          </div>
+
+          <span className="m-1 flex h-[1px] w-[100%] justify-center bg-[#f5f7f7] bg-opacity-20"></span>
+
+          <div>
+            <Link
+              target="_blank"
+              href={"https://veraselopesbpcloas.framer.website/"}
+            >
+              <Card className="mb-2 flex w-fit items-center justify-center gap-1 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-2 py-1 text-gray-300">
+                <p className="text-xs">
+                  Landing Page - VERAS E LOPES ADVOCACIA
+                </p>
+                <ArrowUpRightIcon size={16} />
+              </Card>
+            </Link>
+            <p className="text-sm text-gray-300">
+              Desenvolvi uma landing page persuasiva para o escritório Veras &
+              Lopes Advocacia, focada na conversão de leads para serviços
+              relacionados ao BPC LOAS. O design prioriza clareza e engajamento,
+              guiando os visitantes pelo funil de conversão de forma eficiente.
             </p>
           </div>
         </Card>
@@ -156,11 +221,11 @@ const AboutCard = () => {
 
           <Link
             target="_blank"
-            href="https://www.instagram.com/raiffemoura/"
+            href="https://www.instagram.com/raiffe.design/"
             className="w-full"
           >
             <Button className="text-md flex w-full items-center gap-2 bg-[#1d1d1d] hover:bg-[#c45794]">
-              <Instagram size={20} /> @raiffemoura
+              <Instagram size={20} /> @raiffe.design
             </Button>
           </Link>
 
