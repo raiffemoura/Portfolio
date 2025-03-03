@@ -148,8 +148,8 @@ const AboutProjects = () => {
               <br />
               <p className="text-sm text-gray-300">
                 O site inclui páginas de eventos, álbuns de fotos, materiais
-                para download e informações de contato, garantindo
-                acessibilidade e engajamento para os membros e visitantes.
+                para download e formulário de contato, garantindo acessibilidade
+                e engajamento para os membros e visitantes.
               </p>
               <div className="mt-3 flex gap-1">
                 <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
