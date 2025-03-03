@@ -179,9 +179,8 @@ const AboutProjects = () => {
               <br />
               <p className="text-sm text-gray-300">
                 O site é altamente persuasivo, com estrutura otimizada para
-                conversão, CTA&apos;s estratégicos e formulário integrado para
-                contato direto com os advogados. Foi desenvolvido para ter alta
-                performance em impulsionamentos pagos, garantindo melhor
+                conversão, CTA&apos;s estratégicos. Foi desenvolvido para ter
+                alta performance em impulsionamentos pagos, garantindo melhor
                 captação de leads qualificados.
               </p>
               <div className="mt-3 flex gap-1">
