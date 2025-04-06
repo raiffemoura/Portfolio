@@ -26,10 +26,11 @@ const AboutCard = () => {
         <div className="flex w-full flex-col justify-start text-xl">
           <h1 className="text-xl font-bold">Olá outra vez &#128075; </h1>
           <p className="text-sm text-gray-300">
-            Atualmente, trabalho como desenvolvedor full-stack, criando
-            experiências digitais que combinam funcionalidade e diversão, e
-            impactam positivamente a vida das pessoas. Transformo ideias
-            inovadoras em soluções reais!
+            Atualmente atuo como desenvolvedor full-stack, com foco em
+            automações e integração com IA. Crio experiências digitais que unem
+            funcionalidade, criatividade e propósito — sempre com o objetivo de
+            transformar ideias inovadoras em soluções reais que gerem impacto
+            positivo na vida das pessoas.
           </p>
           <div className="mt-3 flex gap-2">
             <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300">
@@ -37,7 +38,7 @@ const AboutCard = () => {
             </Card>
             <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300">
               <BriefcaseBusinessIcon size={16} />
-              <p className="text-xs">Desenvolvedor Freelancer</p>
+              <p className="text-xs">Product Designer e Automações com IA</p>
             </Card>
           </div>
         </div>
@@ -46,20 +47,23 @@ const AboutCard = () => {
         <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-40 max-md:w-[20rem]">
           <h1 className="text-xl font-bold">Um Pouco Sobre Mim</h1>
           <p className="text-sm text-gray-300">
-            Sou Raiffe Moura, um desenvolvedor full-stack com um forte desejo de
-            transformar ideias em soluções digitais que sejam ao mesmo tempo
-            funcionais e agradáveis. Minha trajetória é guiada pela meta de
-            tornar a tecnologia mais acessível e relevante.
+            Sou Raiffe Moura, desenvolvedor full-stack com atuação em automações
+            digitais e inteligência artificial. Tenho um forte desejo de
+            transformar ideias em soluções tecnológicas que sejam ao mesmo tempo
+            funcionais, eficientes e visualmente envolventes. Acredito que a
+            tecnologia pode (e deve) ser simples, acessível e impactar
+            positivamente a vida das pessoas.
           </p>
           <p className="text-sm text-gray-300">
             Além de programador, sou entusiasta do CrossFit, corrida e futebol
             americano, gosto de desafios e competições. Guiado pela minha fé
-            cristã, tenho 31 anos, sou casado e pai de três filhos, o que me
+            cristã, tenho 33 anos, sou casado e pai de três filhos, o que me
             motiva ainda mais a criar um futuro melhor através da tecnologia.
           </p>
           <p className="text-sm text-gray-300">
-            Estou sempre em busca de oportunidades para crescer e inovar. Vamos
-            nos conectar e criar algo incrível juntos!
+            Sigo sempre aprendendo, inovando e buscando evoluir como
+            profissional e como pessoa. Vamos nos conectar e criar algo incrível
+            juntos!
           </p>
         </Card>
 
