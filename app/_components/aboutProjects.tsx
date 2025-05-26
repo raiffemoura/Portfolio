@@ -6,91 +6,91 @@ import pbbarbers from "../_assets/pbbarbers.jpg";
 import institucional from "../_assets/institucional.jpg";
 import landingpage from "../_assets/landingpage.jpg";
 import ecomerce from "../_assets/ecommerce3.jpg";
+import portSPA1 from "../_assets/spa1.png";
+//import portSPA2 from "../_assets/spa2.png";
+import portMAYA1 from "../_assets/maya2.png";
 
 import Link from "next/link";
 
 const AboutProjects = () => {
   return (
-    <div className="fadeIn scrollbar-hidden mt-[3rem] flex h-full w-full items-start justify-center gap-3 overflow-auto">
-      <div className="scrollbar-hidden flex max-h-[90%] flex-col gap-4 overflow-y-auto md:grid md:grid-cols-2">
-        <Link href="https://portfol-ios.vercel.app/">
+    <div className="fadeIn scrollbar-hidden flex h-full w-full items-start justify-center gap-3 overflow-hidden">
+      <div className="scrollbar-hidden flex max-h-[100%] flex-col gap-4 overflow-y-auto pb-[5rem] pt-[3rem] md:grid md:grid-cols-2">
+        <Link href="https://spaexpressonline.com.br/">
           <Card className="item flex h-fit w-[25rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-50 max-md:w-[21rem]">
             <Image
-              src={portfolios}
-              alt="portfolios"
+              src={portSPA1}
+              alt="Projeto SPA Express"
               className="h-[100%] w-[100%] rounded-xl"
             />
             <div className="flex w-full flex-col justify-start text-xl">
-              <h1 className="text-xl font-bold">Portfol-IOS </h1>
+              <h1 className="text-xl font-bold">SPA Express</h1>
               <p className="text-sm text-gray-300">
-                Um portfólio interativo com uma experiência inovadora que
-                demonstra a minha preparação e capacidade como desenvolvedor
-                Full Stack.
+                Redesenhei o site da maior franquia de spa em domicílio do
+                Brasil, com mais de 50 unidades ativas.
               </p>
               <br />
               <p className="text-sm text-gray-300">
-                Inspirado pela familiaridade dos smartphones, criei um website
-                que simula a interface de um Iphone, com cada &quot;app&quot;
-                representando um projeto de maneira envolvente e profissional.
+                Estruturei um menu com abas dinâmicas e implementei um CMS no
+                Framer para gerenciar mais de 600 páginas com foco em
+                performance, responsividade e escalabilidade,{" "}
+                <span className="font-bold">
+                  resultando em um aumento significativo nas vendas online da
+                  empresa.
+                </span>
               </p>
-              <div className="mt-3 flex gap-2">
+              <div className="mt-3 flex flex-wrap gap-1">
                 <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
-                  <p className="text-xs">React</p>
+                  <p className="text-xs">Framer</p>
                 </Card>
                 <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
-                  <p className="text-xs">JS</p>
+                  <p className="text-xs">CMS</p>
                 </Card>
                 <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
-                  <p className="text-xs">API</p>
+                  <p className="text-xs">UX Design</p>
                 </Card>
                 <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
-                  <p className="text-xs">MongoDB</p>
-                </Card>
-                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
-                  <p className="text-xs">NodeJs</p>
+                  <p className="text-xs">Performance</p>
                 </Card>
               </div>
             </div>
           </Card>
         </Link>
-        <Link href="https://ifoodify.vercel.app/">
+        <Link href="https://mayacyrela.com.br/">
           <Card className="item flex h-fit w-[25rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-50 max-md:w-[21rem]">
             <Image
-              src={ifoodfy}
-              alt="ifoodfy"
+              src={portMAYA1}
+              alt="Projeto Maya Cyrela"
               className="h-[100%] w-[100%] rounded-xl"
             />
             <div className="flex w-full flex-col justify-start text-xl">
-              <h1 className="text-xl font-bold">iFoodfy </h1>
+              <h1 className="text-xl font-bold">Maya Cyrela</h1>
               <p className="text-sm text-gray-300">
-                Um clone do popular aplicativo iFood, demonstrando minhas
-                habilidades em desenvolvimento Full Stack com tecnologias
-                modernas para uma experiência de usuário rápida e intuitiva.
+                Criei uma landingpage para Maya Cyrela, corretora de imóveis de
+                luxo vinculada à Contrutora Cyrela, referência nacional em
+                empreendimentos sofisticados.
               </p>
               <br />
               <p className="text-sm text-gray-300">
-                O iFoodfy inclui autenticação com o Google, histórico de
-                pedidos, catálogo de produtos, carrinho de compras e um processo
-                de checkout eficiente.
+                A proposta foi unir elegância visual e navegação fluida,
+                transmitindo exclusividade e alto padrão — com foco em
+                performance, responsividade e manutenção simples.
               </p>
-              <div className="mt-3 flex gap-1">
+              <div className="mt-3 flex flex-wrap gap-1">
                 <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
-                  <p className="text-xs">Prisma</p>
+                  <p className="text-xs">Design Responsivo</p>
                 </Card>
                 <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
-                  <p className="text-xs">Next.js</p>
+                  <p className="text-xs">WorPress</p>
                 </Card>
+                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
+                  <p className="text-xs">Performance</p>
+                </Card>
+              </div>
+            </div>
+          </Card>
+        </Link>
 
-                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
-                  <p className="text-xs">TypeScript</p>
-                </Card>
-                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
-                  <p className="text-xs">Google OAuth</p>
-                </Card>
-              </div>
-            </div>
-          </Card>
-        </Link>
         <Link href="https://pb-barbers.vercel.app/">
           <Card className="item flex h-fit w-[25rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-50 max-md:w-[21rem]">
             <Image
@@ -225,6 +225,84 @@ const AboutProjects = () => {
                 </Card>
                 <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
                   <p className="text-xs">UX/UI Design</p>
+                </Card>
+              </div>
+            </div>
+          </Card>
+        </Link>
+        <Link href="https://portfol-ios.vercel.app/">
+          <Card className="item flex h-fit w-[25rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-50 max-md:w-[21rem]">
+            <Image
+              src={portfolios}
+              alt="portfolios"
+              className="h-[100%] w-[100%] rounded-xl"
+            />
+            <div className="flex w-full flex-col justify-start text-xl">
+              <h1 className="text-xl font-bold">Portfol-IOS </h1>
+              <p className="text-sm text-gray-300">
+                Um portfólio interativo com uma experiência inovadora que
+                demonstra a minha preparação e capacidade como desenvolvedor
+                Full Stack.
+              </p>
+              <br />
+              <p className="text-sm text-gray-300">
+                Inspirado pela familiaridade dos smartphones, criei um website
+                que simula a interface de um Iphone, com cada &quot;app&quot;
+                representando um projeto de maneira envolvente e profissional.
+              </p>
+              <div className="mt-3 flex gap-2">
+                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
+                  <p className="text-xs">React</p>
+                </Card>
+                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
+                  <p className="text-xs">JS</p>
+                </Card>
+                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
+                  <p className="text-xs">API</p>
+                </Card>
+                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
+                  <p className="text-xs">MongoDB</p>
+                </Card>
+                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
+                  <p className="text-xs">NodeJs</p>
+                </Card>
+              </div>
+            </div>
+          </Card>
+        </Link>
+        <Link href="https://ifoodify.vercel.app/">
+          <Card className="item flex h-fit w-[25rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-50 max-md:w-[21rem]">
+            <Image
+              src={ifoodfy}
+              alt="ifoodfy"
+              className="h-[100%] w-[100%] rounded-xl"
+            />
+            <div className="flex w-full flex-col justify-start text-xl">
+              <h1 className="text-xl font-bold">iFoodfy </h1>
+              <p className="text-sm text-gray-300">
+                Um clone do popular aplicativo iFood, demonstrando minhas
+                habilidades em desenvolvimento Full Stack com tecnologias
+                modernas para uma experiência de usuário rápida e intuitiva.
+              </p>
+              <br />
+              <p className="text-sm text-gray-300">
+                O iFoodfy inclui autenticação com o Google, histórico de
+                pedidos, catálogo de produtos, carrinho de compras e um processo
+                de checkout eficiente.
+              </p>
+              <div className="mt-3 flex gap-1">
+                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
+                  <p className="text-xs">Prisma</p>
+                </Card>
+                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
+                  <p className="text-xs">Next.js</p>
+                </Card>
+
+                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
+                  <p className="text-xs">TypeScript</p>
+                </Card>
+                <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300 hover:bg-[#474747]">
+                  <p className="text-xs">Google OAuth</p>
                 </Card>
               </div>
             </div>

@@ -370,7 +370,6 @@ const AboutCard = () => {
             </Button>
           </Link>
         </Card>
-        <div className="fadeout-overlay" />
       </div>
     </div>
   );
