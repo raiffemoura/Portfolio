@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Card } from "./ui/card";
-import profile from "../_assets/profile.jpg";
+import profile from "../_assets/profile2.jpg";
 import {
   ArrowUpRightIcon,
   BriefcaseBusinessIcon,
@@ -13,6 +13,14 @@ import Link from "next/link";
 import SkillsBox from "./skills";
 import { Button } from "./ui/button";
 import whatsapp from "../_assets/whatsappIcon.png";
+import port1 from "../_assets/ifoodfy.jpg";
+import port2 from "../_assets/portfol-ios.png";
+import port3 from "../_assets/ecommerce3.jpg";
+import port4 from "../_assets/institucional.jpg";
+import port5 from "../_assets/landingpage.jpg";
+import portSPA1 from "../_assets/spa1.png";
+import portSPA2 from "../_assets/spa2.png";
+import portMAYA1 from "../_assets/maya.png";
 
 const AboutCard = () => {
   return (
@@ -26,11 +34,11 @@ const AboutCard = () => {
         <div className="flex w-full flex-col justify-start text-xl">
           <h1 className="text-xl font-bold">Olá outra vez &#128075; </h1>
           <p className="text-sm text-gray-300">
-            Atualmente atuo como desenvolvedor full-stack, com foco em
-            automações e integração com IA. Crio experiências digitais que unem
-            funcionalidade, criatividade e propósito — sempre com o objetivo de
-            transformar ideias inovadoras em soluções reais que gerem impacto
-            positivo na vida das pessoas.
+            Atualmente atuo como desenvolvedor full-stack, com foco em websites
+            de alta conversão e automações integradas com IA. Crio experiências
+            digitais que unem funcionalidade, criatividade e propósito — sempre
+            com o objetivo de transformar ideias inovadoras em soluções reais
+            que gerem impacto positivo na vida das pessoas.
           </p>
           <div className="mt-3 flex gap-2">
             <Card className="flex w-fit items-center justify-center gap-2 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-3 py-1 text-gray-300">
@@ -57,7 +65,7 @@ const AboutCard = () => {
           <p className="text-sm text-gray-300">
             Além de programador, sou entusiasta do CrossFit, corrida e futebol
             americano, gosto de desafios e competições. Guiado pela minha fé
-            cristã, tenho 33 anos, sou casado e pai de três filhos, o que me
+            cristã, tenho 32 anos, sou casado e pai de três filhos, o que me
             motiva ainda mais a criar um futuro melhor através da tecnologia.
           </p>
           <p className="text-sm text-gray-300">
@@ -69,6 +77,78 @@ const AboutCard = () => {
 
         <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-40 max-md:w-[20rem]">
           <h1 className="text-xl font-bold">Experiência</h1>
+
+          <div>
+            <Link target="_blank" href="https://spaexpressonline.com.br/">
+              <Card className="mb-2 flex w-fit items-center justify-center gap-1 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-2 py-1 text-gray-300">
+                <p className="text-xs">SPA EXPRESS</p>
+                <ArrowUpRightIcon size={16} />
+              </Card>
+            </Link>
+
+            <p className="text-sm text-gray-300">
+              Redesenhei o site da maior franquia de spa em domicílio do Brasil,
+              com mais de 50 unidades ativas. O desafio foi organizar dezenas de
+              serviços por unidade em uma navegação leve e intuitiva. Desenvolvi
+              um menu com abas dinâmicas, implementei um CMS no Framer para
+              gerenciar mais de 600 páginas com foco em performance,
+              responsividade e escalabilidade. O novo site aumentou
+              significativamente o número de vendas online e fortaleceu a
+              presença digital da marca.
+            </p>
+
+            <div className="mt-5 flex gap-4">
+              <Link target="_blank" href="https://spaexpressonline.com.br/">
+                <Image
+                  src={portSPA1}
+                  alt="Projeto SPA Express"
+                  className="max-h-[fit] max-w-[100%] object-cover"
+                />
+                <Image
+                  src={portSPA2}
+                  alt="Projeto SPA Express"
+                  className="mt-3 max-h-[fit] max-w-[100%] object-cover"
+                />
+              </Link>
+            </div>
+          </div>
+
+          <span className="m-1 flex h-[1px] w-[100%] justify-center bg-[#f5f7f7] bg-opacity-20"></span>
+
+          <div>
+            <Link target="_blank" href="https://mayacyrela.com.br/">
+              <Card className="mb-2 flex w-fit items-center justify-center gap-1 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-2 py-1 text-gray-300">
+                <p className="text-xs">MAYA CYRELA</p>
+                <ArrowUpRightIcon size={16} />
+              </Card>
+            </Link>
+
+            <p className="text-sm text-gray-300">
+              Desenvolvi o site institucional da Maya Cyrela, uma das principais
+              corretoras de imóveis de alto padrão do Brasil, em parceria com a
+              Cyrela, referência nacional em empreendimentos de luxo. O projeto
+              teve como foco transmitir sofisticação e exclusividade,
+              alinhando-se à identidade da marca. Criei uma experiência digital
+              fluida e responsiva, com navegação intuitiva e visual elegante,
+              destacando os empreendimentos de forma impactante. A estrutura do
+              site foi pensada para facilitar a atualização de conteúdos e
+              garantir alta performance, refletindo o compromisso da Maya Cyrela
+              com a excelência no atendimento a clientes exigentes.
+            </p>
+
+            <div className="mt-5 flex gap-4">
+              <Link target="_blank" href="https://mayacyrela.com.br/">
+                <Image
+                  src={portMAYA1}
+                  alt="Projeto Maya Cyrela"
+                  className="max-h-[fit] max-w-[100%] object-cover"
+                />
+              </Link>
+            </div>
+          </div>
+
+          <span className="m-1 flex h-[1px] w-[100%] justify-center bg-[#f5f7f7] bg-opacity-20"></span>
+
           <div>
             <Link target="_blank" href={"https://ifoodify.vercel.app/"}>
               <Card className="mb-2 flex w-fit items-center justify-center gap-1 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-2 py-1 text-gray-300">
@@ -82,6 +162,15 @@ const AboutCard = () => {
               funcionalidades chave como login com o Google e atualizações em
               tempo de entregas para melhorar a experiência do usuário.
             </p>
+            <div className="mt-5 flex gap-4">
+              <Link target="_blank" href="https://ifoodify.vercel.app/">
+                <Image
+                  src={port1}
+                  alt="Ifoodify"
+                  className="max-h-[fit] max-w-[100%] object-cover"
+                />
+              </Link>
+            </div>
           </div>
 
           <span className="m-1 flex h-[1px] w-[100%] justify-center bg-[#f5f7f7] bg-opacity-20"></span>
@@ -104,15 +193,21 @@ const AboutCard = () => {
               Cada &quot;app&quot; reflete minha habilidade em enfrentar
               desafios e encontrar soluções criativas.
             </p>
+            <div className="mt-5 flex gap-4">
+              <Link target="_blank" href="https://portfol-ios.vercel.app/">
+                <Image
+                  src={port2}
+                  alt="Porfolios"
+                  className="max-h-[fit] max-w-[100%] object-cover"
+                />
+              </Link>
+            </div>
           </div>
 
           <span className="m-1 flex h-[1px] w-[100%] justify-center bg-[#f5f7f7] bg-opacity-20"></span>
 
           <div>
-            <Link
-              target="_blank"
-              href={"https://benifalcao.lojavirtualnuvem.com.br/"}
-            >
+            <Link target="_blank" href={"https://benifalcao.com.br/"}>
               <Card className="mb-2 flex w-fit items-center justify-center gap-1 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-2 py-1 text-gray-300">
                 <p className="text-xs">E-commerce - BENI FALCÃO</p>
                 <ArrowUpRightIcon size={16} />
@@ -124,15 +219,21 @@ const AboutCard = () => {
               plataforma combina design intuitivo com processos de compra
               otimizados, garantindo uma experiência fluida para os clientes.
             </p>
+            <div className="mt-5 flex gap-4">
+              <Link target="_blank" href="https://benifalcao.com.br/">
+                <Image
+                  src={port3}
+                  alt="benifalcao"
+                  className="max-h-[fit] max-w-[100%] object-cover"
+                />
+              </Link>
+            </div>
           </div>
 
           <span className="m-1 flex h-[1px] w-[100%] justify-center bg-[#f5f7f7] bg-opacity-20"></span>
 
           <div>
-            <Link
-              target="_blank"
-              href={"https://catedralcomunhao.framer.website/"}
-            >
+            <Link target="_blank" href={"https://catedralcomunhao.com/"}>
               <Card className="mb-2 flex w-fit items-center justify-center gap-1 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-2 py-1 text-gray-300">
                 <p className="text-xs">
                   Site Institucional - CATEDRAL COMUNHÃO
@@ -147,6 +248,15 @@ const AboutCard = () => {
               informativas, álbuns de fotos de eventos e materiais para
               download, facilitando o acesso a conteúdos da comunidade.
             </p>
+            <div className="mt-5 flex gap-4">
+              <Link target="_blank" href="https://catedralcomunhao.com/">
+                <Image
+                  src={port4}
+                  alt="Porfolios"
+                  className="max-h-[fit] max-w-[100%] object-cover"
+                />
+              </Link>
+            </div>
           </div>
 
           <span className="m-1 flex h-[1px] w-[100%] justify-center bg-[#f5f7f7] bg-opacity-20"></span>
@@ -169,6 +279,22 @@ const AboutCard = () => {
               relacionados ao BPC LOAS. O design prioriza clareza e engajamento,
               guiando os visitantes pelo funil de conversão de forma eficiente.
             </p>
+            <div className="mt-5 flex gap-4">
+              <Link
+                target="_blank"
+                href="https://veraselopesbpcloas.framer.website/"
+              >
+                <Image
+                  src={port5}
+                  alt="site advogado"
+                  className="max-h-[fit] max-w-[100%] object-cover"
+                  style={{
+                    borderBottomLeftRadius: "20px",
+                    borderBottomRightRadius: "20px",
+                  }}
+                />
+              </Link>
+            </div>
           </div>
         </Card>
 
@@ -244,6 +370,7 @@ const AboutCard = () => {
             </Button>
           </Link>
         </Card>
+        <div className="fadeout-overlay" />
       </div>
     </div>
   );
