@@ -25,7 +25,7 @@ import portMAYA1 from "../_assets/maya.png";
 const AboutCard = () => {
   return (
     <div className="fadeIn md:scrollbar-hidden mt-[3rem] flex h-full w-full items-start justify-center gap-3 overflow-auto max-md:flex-col max-md:items-center max-md:overflow-y-auto">
-      <Card className="item flex h-fit w-[25rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-40 max-md:w-[20rem] md:mb-20">
+      <Card className="item flex h-fit w-[27rem] flex-col items-center justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-40 max-md:w-[20rem] md:mb-20">
         <Image
           src={profile}
           alt="profile"
@@ -51,7 +51,7 @@ const AboutCard = () => {
           </div>
         </div>
       </Card>
-      <div className="scrollbar-hidden flex max-h-[90%] flex-col gap-4 overflow-y-auto">
+      <div className="scrollbar-hidden flex max-h-[100vh] flex-col gap-4 overflow-y-auto">
         <Card className="item flex w-[25rem] flex-col items-start justify-center gap-3 rounded-3xl border-none bg-black bg-opacity-30 p-4 text-white hover:bg-opacity-40 max-md:w-[20rem]">
           <h1 className="text-xl font-bold">Um Pouco Sobre Mim</h1>
           <p className="text-sm text-gray-300">
@@ -295,6 +295,15 @@ const AboutCard = () => {
                 />
               </Link>
             </div>
+          </div>
+
+          <div className="flex w-full items-center justify-center">
+            <Link target="_blank" href={"https://raiffemoura/projects"}>
+              <Card className="mb-2 mt-2 flex w-fit items-center justify-center gap-1 rounded-sm border-none bg-[#1d1d1d] bg-opacity-40 px-5 py-1 text-gray-300">
+                <p className="text-lg">Ver todos os projetos</p>
+                <ArrowUpRightIcon size={22} className="mt-1" />
+              </Card>
+            </Link>
           </div>
         </Card>
 
